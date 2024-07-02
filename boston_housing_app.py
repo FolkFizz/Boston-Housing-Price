@@ -7,7 +7,7 @@ import seaborn as sns
 
 # Load the model and data
 model = joblib.load('linear_regression_model.joblib')
-train_data = pd.read_csv(r"C:\Users\Acer\OneDrive\Desktop\Data Science Project Practice\Housing_Price\train.csv")
+train_data = pd.read_csv("train.csv")
 
 # Define the features
 features = ['crim', 'zn', 'indus', 'chas', 'nox', 'rm', 'age', 'dis', 'rad', 'tax', 'ptratio', 'black', 'lstat']
